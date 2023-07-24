@@ -1,0 +1,154 @@
+wandb_version: 1
+
+algo:
+  desc: null
+  value: ppo
+n_envs:
+  desc: null
+  value: 128
+n_steps:
+  desc: null
+  value: 256
+epoch:
+  desc: null
+  value: 3
+mini_batch_per_epoch:
+  desc: null
+  value: 8
+mini_batch_size:
+  desc: null
+  value: 4096
+gamma:
+  desc: null
+  value: 0.999
+lmbda:
+  desc: null
+  value: 0.95
+learning_rate:
+  desc: null
+  value: 0.005
+grad_clip_norm:
+  desc: null
+  value: 0.5
+eps_clip:
+  desc: null
+  value: 0.2
+value_coef:
+  desc: null
+  value: 0.5
+entropy_coef:
+  desc: null
+  value: 0.01
+normalize_adv:
+  desc: null
+  value: true
+normalize_rew:
+  desc: null
+  value: true
+use_gae:
+  desc: null
+  value: true
+architecture:
+  desc: null
+  value: concept_impala
+recurrent:
+  desc: null
+  value: false
+embedding_size:
+  desc: null
+  value: 256
+n_heads:
+  desc: null
+  value: 4
+ratio:
+  desc: null
+  value: 1.9
+method:
+  desc: null
+  value: product
+mode:
+  desc: null
+  value: ctx
+shared_head:
+  desc: null
+  value: false
+skip:
+  desc: null
+  value: 0
+rpe_on:
+  desc: null
+  value: qkv
+add_relative:
+  desc: null
+  value: true
+exp_name:
+  desc: null
+  value: test
+env_name:
+  desc: null
+  value: starpilot
+start_level:
+  desc: null
+  value: 0
+num_levels:
+  desc: null
+  value: 200
+distribution_mode:
+  desc: null
+  value: easy
+param_name:
+  desc: null
+  value: concept-easy-200
+device:
+  desc: null
+  value: gpu
+gpu_device:
+  desc: null
+  value: 0
+num_timesteps:
+  desc: null
+  value: 25000000
+seed:
+  desc: null
+  value: 2509
+log_level:
+  desc: null
+  value: 40
+num_checkpoints:
+  desc: null
+  value: 1
+track:
+  desc: null
+  value: true
+wandb_project_name:
+  desc: null
+  value: ConceptPPO
+wandb_entity:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    code_path: code/train.py
+    python_version: 3.8.10
+    cli_version: 0.15.5
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1690085875.13914
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      - 35
+      4: 3.8.10
+      5: 0.15.5
+      8:
+      - 5
